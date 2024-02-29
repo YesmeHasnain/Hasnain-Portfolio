@@ -8,7 +8,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
-    <title>Sadam Hussain</title>
+    <title>Hasnain Saleem</title>
 
 	<!-- Meta Data -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,11 +55,11 @@
 						<!-- My photo -->
 						<div class="sidebar__base-info">
 					    	<figure class="avatar-box">
-                                <img src="assets/images/my-avatar.png" alt="Sadam Hussain">
+                                <img src="assets/images/my-avatar.png" alt="Hasnain Saleem">
 						    </figure>
 
 							<div class="text-xl-center">
-						        <h3 class="title title--h3 sidebar__name">Sadam Hussain</h3>
+						        <h3 class="title title--h3 sidebar__name">Hasnain Saleem</h3>
 							    <div class="badge">Full Stack Developer</div>
 						    </div>
 
@@ -74,7 +74,7 @@
 							        <span class="box icon-box"><i class="font-icon icon-envelope"></i></span>
 								    <div class="contacts-block__info">
 									    <span class="overhead">Email</span>
-									    <a class="text-overflow" href="mailto:sadam@aptechgdn.net" title="sadam@aptechgdn.net">sadam@aptechgdn.net</a>
+									    <a class="text-overflow" href="mailto:hasnainsaleem2211@gmail.com" title="hasnainsaleem2211@gmail.com">hasnainsaleem2211@gmail.com/a>
 								    </div>
 							    </li>
 							    <!-- Phone -->
@@ -82,7 +82,7 @@
 								    <span class="box icon-box"><i class="font-icon icon-phone"></i></span>
 								    <div class="contacts-block__info">
 									    <span class="overhead">Phone</span>
-							            <span class="text-overflow" title="+92 321 2192236">+92 312 0221101</span>
+							            <span class="text-overflow" title="+92 330 3733184">+92 330 3733184</span>
 								    </div>	
 							    </li>
 								<!-- Birthday -->
@@ -90,7 +90,7 @@
 								    <span class="box icon-box"><i class="font-icon icon-calendar"></i></span>
 								    <div class="contacts-block__info">
 									    <span class="overhead">Birthday</span>
-							            <span class="text-overflow" title="November 23">January 15</span>
+							            <span class="text-overflow" title="Febuary 22">Febuary 22</span>
 								    </div>
 							    </li>
 					        </ul>
@@ -131,17 +131,16 @@
 						<div class="row">
 							<div class="col-12 col-md-6">
 								<h6><i class="font-icon icon-phone" style="color: #FFDB6E; font-size: 20px;"></i> Phone No :</h3>
-								<p>+92 312 0221101</p>
+								<p>+92 330 3733184</p>
 							</div>
 							<div class="col-12 col-md-6">
 								<h6><i class="font-icon icon-envelope" style="color: #FFDB6E;"></i> Email :</h3>
-								<p class="mb--3">sadam@aptechgdn.net</p>
-								<p>sadamseehar@gmail.com</p>
+								<p class="mb--3">hasnainsaleem2211@gmail.com</p>
 							</div>
 							<br><br><br>
 							<div class="col-12 col-md-6">
 								<h6><i class="font-icon icon-location" style="color: #FFDB6E;"></i> Location :</h3>
-								<p>    <span class="text-overflow" title="Central fire brigade near civil hospital">Central fire brigade near civil hospital</span>
+								<p>    <span class="text-overflow" title="Central fire brigade near civil hospital">Nazimabad No 1 block # 01</span>
 								</p>
 							</div>
 					    </div>
@@ -169,7 +168,7 @@
 					                <div id="validator-contact" class="hidden"></div>
 				                </div>
 				                <div class="col-12 col-md-6 order-1 order-md-2 text-end">
-					                <button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
+					                <button type="submit" class="btn"><i class="font-icon icon-send" onclick="checkcrendital()"></i> Send Message</button>
 				                </div>
 			                </div>
 		                </form>
@@ -188,7 +187,33 @@
 
     <!-- Mapbox init -->
 	<script src="assets/js/mapbox.init.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+		var name = document.getElementById('nameContact');
+		var email = document.getElementById('emailContact');
+		var Massage = document.getElementById('emailContact');
+		function checkcrendital(){
+			const Toast = Swal.mixin({
+  				toast: true,
+  				position: "top-end",
+  				showConfirmButton: false,
+  				timer: 3000,
+  				timerProgressBar: true,
+  				didOpen: (toast) => {
+    			toast.onmouseenter = Swal.stopTimer;
+    			toast.onmouseleave = Swal.resumeTimer;
+  			}
+			});
+				Toast.fire({
+  				icon: "success",
+  				title: "Signed in successfully"
+				});
+			console.log("hasnain")
+		}
+		
 
+		
+	</script>
 </body>
 
 <!-- Mirrored from art-template.ru/vcard4/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Jan 2023 09:31:05 GMT -->
